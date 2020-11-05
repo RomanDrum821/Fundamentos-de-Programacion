@@ -15,7 +15,8 @@ int main (int argc, char** argv)
 	printf 	("\n x: %f", x); 
 	printf 	("\n y: %f", y);
 	printf 	("\n z: %f", z); 
-		
+
+	//bloque para el veradero o falso		
 	if ( w > x && w > y && w > z)
 	{
 		printf 	("\n El mayor es w");
