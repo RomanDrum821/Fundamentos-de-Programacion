@@ -22,7 +22,7 @@ int main(int argc, char** argv)
     while(w<l)
     	{
     		printf ("\n%d",y);
-			z=x+y;
+		 	z=x+y;
         	x=y;
         	y=z;
         	w++;
