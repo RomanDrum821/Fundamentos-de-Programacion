@@ -1,39 +1,38 @@
+
+  ///////////////////
+ //SERIE FIBONACCI//
+///////////////////
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (int argc, char** argv)
-{
-	
-	float x = 10;
-	float y = 15;
-	float z = 13;
+//Susecion de fibonacci
+//0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,… 
+int main(int argc, char** argv) {
+    
+//Variables
+    float x = 0; //numero inicial 1
+    float y = 1; //numero inicial 2
+    float z; //numero generado
+    float n; //cantidad de numeros generados
+    float i = 1; //Contador
+    
+//Ejecutar
+    printf ("Cuantos numeros quieres?");
+    scanf (n)
+    
+    while (i<=n)
+    {
+        x=y;
+        y=z;
+        z=x+y;
+        i++;
+        printf(z);
+    }
+    
+    return (0);
+}
 
-	//bloque para el veradero o falso
-	
-	printf 	("\n x: %f", x); 
-	printf 	("\n y: %f", y);
-	printf 	("\n z: %f", z); 
-		
-	if ( z < x > y )
-	{
-		printf 	("\n El mayor es x");
-	}
-		else
-		{
-			if ( x < z > y )
-			{
-			printf 	("\n El mayor es z");	
-			}
-				else
-				{
-					printf ("\n El mayor es y");
-				}
-		}
-	
-
-	return 0;
-	
-	
-	
+	return 0;	
 	
 }
