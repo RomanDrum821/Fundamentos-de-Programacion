@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 
  		for(z=0; z<=99; z++)
     		{
-       		printf("%llu \n", array[z]);
+       		printf("%d \n", array[z]);
     		}
 
 	return 0; 
