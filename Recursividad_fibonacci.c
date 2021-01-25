@@ -13,15 +13,17 @@ int fibonacci (int f)
 int main (void)
 {
     int r, valor;
-
-    printf("0");
+	int tope;
+    scanf("%d \n",&tope);
+	printf("0");
     printf("\n1");
     printf("\n1");
+	
 
-    for (valor = 1; valor <= 20 ; valor++)
+    for (valor = 1; valor <= tope ; valor++)
 		{
 		r = fibonacci(valor);
-        printf("\n%d %d", valor, r);
+        printf("\n%d", r);
         }
 
 
